@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#stopwatch {
+    text-align: center;
+}
+
+#time {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#start {
+    background-color: #4caf50;
+    color: white;
+}
+
+#stop, #reset {
+    background-color: #f44336;
+    color: white;
+}
